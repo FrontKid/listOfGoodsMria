@@ -20,7 +20,7 @@ const handleQuery = (text:string) => {
 }
 
   return <>
-  <div className="my-3 m-auto flex flex-col justify-center items-center">
+  <div className="my-3 m-auto flex flex-col justify-center items-center sticky top-0 bg-[gray]">
       <label className="block ">
         ПОИСК ПО КОДУ И НАЗВАНИЮ
         <input value={query} onChange={(e )=> handleQuery(e.target.value)} className="bg-white rounded-2xl block w-full" type="text" />
